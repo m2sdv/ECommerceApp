@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_done_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe5e5e5"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/layout_border"
+        android:layout_margin="20dp">
+
+        <com.ecommerce.customfonts.MyTextView_Montserrat_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Order Placed"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_check"
+            android:tint="@color/colorPrimaryDark" />
+
+
+
+        <com.ecommerce.customfonts.MyTextView_Montserrat_Regular
+            android:layout_marginTop="15dp"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="Your order has been successfully placed."
+            android:textSize="18sp" />
+
+
+
+        <Button
+
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Continue Shopping"
+            android:background="@color/colorPrimary"
+            android:id="@+id/continue_shopping"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
